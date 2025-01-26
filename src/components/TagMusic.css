@@ -1,0 +1,51 @@
+.tag-music {
+  padding: 20px;
+  text-align: center;
+  background: url('../assets/tag-music-bg.jpg') no-repeat center center/cover;
+}
+
+.music-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
+  margin-top: 20px;
+}
+
+.music-item {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;  
+  border-radius: 5px;  
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);  
+  width: 80%;  
+  margin: 0 auto;  
+}
+
+input {
+  margin-top: 8px;
+  padding: 6px;  
+  width: 70%;  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 6px 12px; 
+  font-size: 0.85rem; 
+  background-color: #a71b1b; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+button:hover {
+  background-color: #8a1515;
+}
+.group-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #fffcfc;
+  text-align: center;
+}
